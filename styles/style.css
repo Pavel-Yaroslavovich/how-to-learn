@@ -176,11 +176,14 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .table__bank {
   display: inline-block;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 
 /*===feynman===*/
@@ -309,7 +312,7 @@
   margin-right: auto;
 }
 
-.footer__columns_content_copyright {
+.footer__block-columns_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
