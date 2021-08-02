@@ -226,16 +226,18 @@
   padding-top: 90px;
   overflow: hidden;
   color: #f2f2f2;
+  z-index: 1;
 }
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
-  background-size: 960px 877px;
+  background-size: 877px 877px;
   width: 877px;
   height: 877px;
   position: absolute;
   right: -210px;
   top: 0;
+  z-index: -1;
 }
 
 .section-title_theme_dark {
